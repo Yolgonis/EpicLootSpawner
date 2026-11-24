@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>0649;0414</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Harness.cs" />
+    <Compile Include="SpecialInventoryChecks.cs" />
+    <Compile Include="ReviewChecks.cs" />
+    <Compile Include="../../src/PresetSelection.cs" Link="PresetSelection.cs" />
+    <Compile Include="../LegendaryFixtures.cs" Link="LegendaryFixtures.cs" />
+    <Compile Include="../../src/SpecialItems.cs" Link="SpecialItems.cs" />
+    <Compile Include="../../src/SpecialItemMenu.cs" Link="SpecialItemMenu.cs" />
+    <Compile Include="Fixtures/EpicLootIndestructible.cs" />
+    <Compile Include="Fixtures/EpicLootMagicTotals.cs" />
+    <Compile Include="../../src/UiLayout.cs" Link="UiLayout.cs" />
+    <Compile Include="../../src/ItemDifference.cs" Link="ItemDifference.cs" />
+    <Compile Include="../../src/ComparisonMenu.cs" Link="ComparisonMenu.cs" />
+    <Compile Include="../../src/CatalogMenu.cs" Link="CatalogMenu.cs" />
+    <Compile Include="../../src/ItemTiers.cs" Link="ItemTiers.cs" />
+    <Compile Include="TierChecks.cs" />
+    <Compile Include="../../src/LibraryMenu.cs" Link="LibraryMenu.cs" />
+    <Compile Include="../../src/HistoryMenu.cs" Link="HistoryMenu.cs" />
+    <Compile Include="../../src/DesignHistory.cs" Link="DesignHistory.cs" />
+    <Compile Include="../../src/EffectDisplay.cs" Link="EffectDisplay.cs" />
+    <Compile Include="../../src/InventoryEditor.cs" Link="InventoryEditor.cs" />
+    <Compile Include="../../src/SessionDraft.cs" Link="SessionDraft.cs" />
+    <Compile Include="../../src/ExactWoodDrops.cs" Link="ExactWoodDrops.cs" />
+    <Compile Include="../../src/Rules.cs" Link="Rules.cs" />
+    <Compile Include="../../src/Presets.cs" Link="Presets.cs" />
+    <Compile Include="../../src/EffectChoice.cs" Link="EffectChoice.cs" />
+    <Compile Include="../../src/DraftStore.cs" Link="DraftStore.cs" />
+    <Compile Include="../../src/Favorites.cs" Link="Favorites.cs" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Compile Include="../../src/CollectionTransfer.cs" Link="CollectionTransfer.cs" />
+    <Compile Include="../../src/Recovery.cs" Link="Recovery.cs" />
+    <Compile Include="../../src/ItemCopies.cs" Link="ItemCopies.cs" />
+    <Compile Include="../../src/PresetQuery.cs" Link="PresetQuery.cs" />
+    <Compile Include="AdditionalChecks.cs" />
+    <Compile Include="DisenchantChecks.cs" />
+    <Compile Include="InventoryOperationChecks.cs" />
+    <Compile Include="InventoryPresentationChecks.cs" />
+    <Compile Include="../../src/InventoryPresentation.cs" Link="InventoryPresentation.cs" />
+    <Compile Include="../../src/DisenchantMenu.cs" Link="DisenchantMenu.cs" />
+    <Compile Include="../../src/InventoryUndoMenu.cs" Link="InventoryUndoMenu.cs" />
+    <Compile Include="../../src/InventoryOperations.cs" Link="InventoryOperations.cs" />
+    <Compile Include="../../src/InventoryUndo.cs" Link="InventoryUndo.cs" />
+    <Compile Include="../../src/Disenchant.cs" Link="Disenchant.cs" />
+  </ItemGroup>
+</Project>

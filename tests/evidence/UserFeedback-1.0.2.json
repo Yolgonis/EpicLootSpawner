@@ -1,0 +1,9 @@
+{
+  "Kind": "FeatureSpecificUserFeedback",
+  "Date": "2026-10-09",
+  "Version": "1.0.2",
+  "Feature": "Enchantment removal with stone returns",
+  "UserQuote": "Büyü kaldırma düzgün çalışıyor, önerdiğin sırayla başlayalım",
+  "RuntimeArchiveSHA256": "1A8AD99473C8CEF6C61CAE3B52FD453ACF97F637EF2567978122F1C419B24096",
+  "Scope": "Positive user report for enchantment removal; individual scenarios and subsequent 1.1.0 features are not separately verified."
+}

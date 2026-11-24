@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="../src/ItemDifference.cs" Link="ItemDifference.cs" />
+    <Compile Include="../src/FieldValidation.cs" Link="FieldValidation.cs" />
+    <Compile Include="../src/UiLayout.cs" Link="UiLayout.cs" />
+    <Compile Include="../src/Rules.cs" Link="Rules.cs" />
+    <Compile Include="../src/Presets.cs" Link="Presets.cs" />
+    <Compile Include="../src/EffectChoice.cs" Link="EffectChoice.cs" />
+    <Compile Include="../src/DesignHistory.cs" Link="DesignHistory.cs" />
+    <Compile Include="../src/Favorites.cs" Link="Favorites.cs" />
+    <Compile Include="../src/RecipeTransfer.cs" Link="RecipeTransfer.cs" />
+    <Compile Include="../src/DraftStore.cs" Link="DraftStore.cs" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Compile Include="../src/CollectionTransfer.cs" Link="CollectionTransfer.cs" />
+    <Compile Include="../src/Recovery.cs" Link="Recovery.cs" />
+    <Compile Include="../src/PresetQuery.cs" Link="PresetQuery.cs" />
+    <Compile Include="FeatureChecks.cs" />
+    <Compile Include="ResizeChecks.cs" />
+    <Compile Include="EffectCapChecks.cs" />
+    <Compile Include="../src/EffectCapMath.cs" Link="EffectCapMath.cs" />
+    <Compile Include="../src/WindowResizeState.cs" Link="WindowResizeState.cs" />
+  </ItemGroup>
+</Project>

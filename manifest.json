@@ -1,0 +1,10 @@
+{
+  "name": "EpicLootSpawner",
+  "version_number": "1.5.0",
+  "website_url": "",
+  "description": "Client-side spawning and inventory editing for EpicLoot 0.15.6: a single-page designer, effect/stone/Legendary pickers with full descriptions, optional unlimited values, effects and sockets.",
+  "dependencies": [
+    "RandyKnapp-EpicLoot-0.15.6",
+    "ValheimModding-Jotunn-2.30.2"
+  ]
+}
